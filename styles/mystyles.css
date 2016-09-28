@@ -1,0 +1,439 @@
+/*---------------------------------------
+------------------ GLOBAL ---------------
+---------------------------------------*/
+body {
+  background: #fff;
+}
+h1, h2, h4, .carousel p {
+  font-family: 'Jura', sans-serif;
+}
+p {
+  font-family: 'Raleway', sans-serif;
+}
+h3 {}
+.row {
+  margin-bottom:32px;
+}
+
+/*font-family: 'Playfair Display', serif;
+  font-family: 'Raleway', sans-serif;
+*/
+a {
+  color:#e74d3c;
+}
+a:hover, a:focus {
+  color: #555;
+  text-decoration: none;
+}
+.row-content {
+  margin-bottom:70px;
+  padding: 0px 15px 0px 15px;
+}
+.breadcrumb {
+  margin-bottom:10px;
+}
+.page-title {
+  background: #e74d3c;
+  color: #eee;
+}
+.page-title h1 {
+  font-family: 'Spinnaker', sans-serif;
+  margin-top:0;
+  margin-bottom:48px;
+  padding:12px;
+}
+.iframe-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+}
+.iframe-container iframe {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*---------------------------------------
+------------------- HEAD ----------------
+---------------------------------------*/
+
+#upper-wrapper a {
+  border-left: 1px solid #f5f5f5;
+  display: inline-block;
+  padding: 5px 0px 5px 10px;
+  margin: 5px 0px 5px 8px;
+}
+
+#upper-wrapper {
+  background:#fff;
+  border-bottom: 1px solid #f5f5f5;
+  max-height: 40px;
+}
+
+/*---------------------------------------
+------------------ NAVBAR ---------------
+---------------------------------------*/
+.navbar {
+  -webkit-box-shadow: 0 6px 4px -4px #bbb;
+  -moz-box-shadow: 0 6px 4px -4px #bbb;
+  box-shadow: 0 6px 4px -4px #bbb;
+}
+
+.navbar-inverse {
+  background: white;
+  border-bottom:0px;
+  margin-bottom:0;
+}
+
+.navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+  color: black;
+  text-shadow: 0 0 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+}
+
+  .navbar-inverse .navbar-nav > li > a:hover,
+  .navbar-inverse .navbar-nav > li > a:focus,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #e74d3c;
+    background: #fff;
+  }
+
+  .navbar-inverse .navbar-nav > .active > a {
+    background: #e74d3c;
+    color: #000;
+  }
+
+  .navbar-inverse .navbar-nav > .active > a:hover,
+  .navbar-inverse .navbar-nav > .active > a:focus {
+    background: #e74d3c;
+    color: #000;
+  }
+
+  .navbar-inverse .navbar-nav > .open > a {
+    background: #e74d3c;
+    color: #fff;
+  }
+  .navbar-inverse .navbar-nav > .open > a:hover {
+    background: #fff;
+    color: #e74d3c;
+  }
+
+  .navbar-inverse .navbar-collapse {
+    border-color: #e74d3c;
+  }
+
+  .navbar-inverse .navbar-toggle {
+    border-color: #e74d3c;
+    border-radius: 8px;
+  }
+
+  .navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #e74d3c;
+  }
+
+  .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: #e74d3c;
+  }
+
+  .navbar-inverse .navbar-toggle:focus .icon-bar, .navbar-inverse .navbar-toggle:hover .icon-bar {
+    background-color: #fff;
+  }
+
+/*---------------------------------------
+----------------- CAROUSEL --------------
+---------------------------------------*/
+
+.carousel {
+  height: 350px;
+  margin-top:40px;
+}
+.carousel .item {
+  height: 350px;
+  background-color: #fff;
+}
+.carousel-caption {
+  top:10%;
+  left:10%;
+}
+#first-slide img, #third-slide img {
+  height: 350px;
+  float:right;
+}
+.carousel-indicators li {
+  background-color: #fff;
+  border: 2px solid black;
+}
+.carousel-indicators .active {
+  background-color: #eee;
+  border: 2px solid #eee;
+}
+#first-slide, #third-slide {
+  background:black;
+}
+#third-slide .carousel-caption {
+  top:-5%;
+}
+#second-slide .carousel-caption {
+  position:relative;
+}
+#btn-about {
+  background-image: linear-gradient(to bottom, #fff 70%, #e0e0e0 100%);
+}
+#btn-about:hover {
+  border:1px solid #e0e0e0;
+}
+
+/*---------------------------------------
+------------------- HOME ----------------
+---------------------------------------*/
+#home-wrapper hr {
+  border-color: #e5e5e5;
+}
+#home-wrapper .text {
+  font-weight: normal;
+  color:#777;
+  font-family: 'Lato', sans-serif;
+  font-size:12px;
+}
+#homeFirstRow {
+  margin-top:30px;
+}
+#homeFirstRow i {
+  padding:40px;
+  color: #e74d3c;
+  border-radius: 50%;
+  background: #eee;
+  border:2px solid #d5d5d5;
+  margin-bottom:10px;
+}
+#homeFirstRow p {
+  font-weight: bold;
+  color:#e74d3c;
+}
+#homePLDDRow a {
+  color: #333;
+}
+#homePLDDRow a:hover {
+  color:#e74d3c;
+}
+
+/*---------------------------------------
+------------- INSTITUTIONAL -------------
+---------------------------------------*/
+#institutional-wrapper h1 {
+  color: #e74d3c;
+}
+
+/*---------------------------------------
+-------------- OUR PRODUCTS -------------
+---------------------------------------*/
+
+#products-wrapper img {
+  padding:10px;
+  border:1px solid #e5e5e5;
+  border-radius: 8px;
+}
+
+#products-wrapper h1 {
+  font-family:
+}
+
+#products-wrapper h2, #products-wrapper a:hover {
+  color: #da220f;
+}
+
+/*---------------------------------------
+------------------ PLDD -----------------
+---------------------------------------*/
+
+#pldd-wrapper .media {
+  background:black;
+  color:#eee;
+  border-radius: 16px;
+  padding:10px;
+}
+
+#brochures {
+  text-align: center;
+}
+
+#brochures a {
+  color: #333;
+}
+#brochures a:hover {
+  color: #e74d3c;
+}
+#brochures a i {
+  margin-top:32px;
+  padding:14px;
+  border-radius:16px;
+  border:1px solid #e5e5e5;
+  color:#333;
+}
+#brochures i:hover {
+  border:1.25px solid #e74d3c;
+  color:#fff;
+  background:#e74d3c;
+}
+
+
+/*---------------------------------------
+-------------- PLDD Articles ------------
+---------------------------------------*/
+.file h4, .file p {
+  text-align: left
+}
+.file h4 {
+  font-family: 'Raleway',sans-serif;
+  font-weight: bold;
+  margin-bottom:0;
+}
+.file hr {
+  margin-top:5px;
+  margin-bottom:5px;
+}
+.file a i {
+  padding:28px;
+  border-radius:16px;
+  border:1px solid #e5e5e5;
+  color:#333;
+}
+.file i:hover {
+  border:1.25px solid #e74d3c;
+  color:#eee;
+  background: #e74d3c;
+}
+.file .media {
+  margin-bottom:48px;
+}
+
+/*---------------------------------------
+------------------ FOOTER ---------------
+---------------------------------------*/
+#footer-wrapper {
+  padding-top: 16px;
+  background:#f5f5f5;
+}
+.row-footer {
+  padding: 0px 15px 0px 15px;
+  border:0px;
+  margin-bottom: 30px;
+}
+.row-footer p {
+  font-family: 'Helvetica', sans-serif;
+  color:#777;
+}
+#logoFooter p {
+  font-size: 10px;
+  color:#888;
+}
+
+/*---------------------------------------
+-------------- MEDIA QUERIES ------------
+---------------------------------------*/
+
+@media (min-width: 769px) {
+  #upper-wrapper img {
+    max-height: 40px;
+  }
+  #navbarList {
+    float: right !important;
+    padding-right: 60px;
+  }
+  #logoFooter {
+    float: right;
+  }
+  ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+  }
+  .navbar-brand {
+    display: none;
+  }
+  #second-slide a {
+    position: absolute;
+    bottom:70%;
+    right:1.5%;
+  }
+}
+@media (max-width: 768px) {
+  #img-orlando {
+    position: absolute;
+    top:0;
+    left:0;
+    min-width: 100%;
+    height:440px !important;
+    max-width: none;
+  }
+  #btn-about {
+    position: absolute;
+    top:70%;
+    left:32%;
+  }
+  img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #upper-wrapper {
+    display: none;
+  }
+  #homeCarousel {
+    margin-top:50px;
+  }
+  .navbar-static-top {
+    position:fixed;
+    right:0;
+    left:0;
+    z-index:1030;
+    top:0;
+    -webkit-box-shadow: 0 0 0 0;
+    -moz-box-shadow: 0 0 0 0;
+    box-shadow: 0 0 0 0;
+  }
+  .carousel, .carousel .item {
+    height:440px;
+  }
+  .carousel #first-slide img, .carousel #third-slide img {
+    display:none;
+  }
+  .carousel .item .btn {
+    text-align: center;
+    display:block;
+    margin:auto;
+  }
+  #laserHealthRow {
+    margin-top: 32px;
+  }
+}
+@media (max-width: 414px) {
+  h1 {
+    font-size: 36px;
+  }
+  h2 {
+    font-size: 26px;
+  }
+  .row {
+    margin:0;
+  }
+  #first-slide .carousel-caption, #third-slide .carousel-caption {
+    top:0%;
+    padding:1px;
+  }
+  .mNone {
+    display:none;
+  }
+  .media img, .media .media-body {
+    display:inline;
+  }
+  #btn-about {
+    position: absolute;
+    top:70%;
+    left:25%;
+  }
+}

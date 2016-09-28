@@ -1,0 +1,22 @@
+{
+  "name": "Medlaser",
+  "authors": [
+    "Amanda Café <contato@cafeamanda.com.br>"
+  ],
+  "description": "Projeto Piloto medlaser.us",
+  "main": "index.html",
+  "keywords": [
+    "Medlaser",
+    "PLDD",
+    "Neo-laser",
+    "Tratamento",
+    "Laser"
+  ],
+  "license": "MIT",
+  "homepage": "medlaser.us",
+  "dependencies": {
+    "angular-resource": "^1.5.8",
+    "angular-ui-router": "^0.3.1",
+    "jquery-touchswipe": "^1.6.18"
+  }
+}

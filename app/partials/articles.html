@@ -1,0 +1,35 @@
+<div class="container" id="articles-wrapper">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a ui-sref="app">Home</a></li>
+    <li class="breadcrumb-item"><a ui-sref="app.ourproducts">Our Products</a></li>
+    <li class="breadcrumb-item active">Related Articles</li>
+  </ol>
+  <div class="page-title">
+    <h1 class="text-center">
+      Related Articles
+    </h1>
+  </div>
+  <div class="row row-content" ng-controller="PageCtrl">
+    <div class="text-center">
+      <div ng-repeat="file in files">
+        <div class="col-xs-12 col-sm-6 file">
+          <div class="media">
+            <div class="media-left media-top">
+              <a ng-href="files/{{file.filename}}" download>
+                <i class="fa fa-download fa-3x"></i>
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">
+                {{file.title | limitTo:70}}...
+              </h4>
+              <hr>
+              <p><strong>Authors:</strong> {{file.authors | limitTo:50}}...</p>
+              <p><strong>Date:</strong> {{file.date}}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
