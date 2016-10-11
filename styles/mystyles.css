@@ -284,15 +284,19 @@ a:hover, a:focus {
 
 
 /*---------------------------------------
--------------- PLDD Articles ------------
+----------------- Articles --------------
 ---------------------------------------*/
 .file h4, .file p {
   text-align: left
 }
 .file h4 {
-  font-family: 'Raleway',sans-serif;
-  font-weight: bold;
+  font-family: 'Oswald',sans-serif;
+  /*font-weight: bold;*/
+  font-size: 16px;
   margin-bottom:0;
+}
+.file p {
+  font-family: 'Roboto', sans-serif;
 }
 .file hr {
   margin-top:5px;
@@ -311,6 +315,21 @@ a:hover, a:focus {
 }
 .file .media {
   margin-bottom:48px;
+}
+#articles-wrapper .row-content {
+  margin-bottom: 20px;
+}
+#articles-wrapper .row-content h1 {
+  color: #e74d3c;
+}
+
+#articles-wrapper .row-content h1 hr {
+  border-color: #e74d3c;
+}
+
+#articles-wrapper h1 i {
+  color:#e74d3c;
+  padding-right:24px;
 }
 
 /*---------------------------------------
