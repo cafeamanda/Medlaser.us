@@ -19,10 +19,44 @@
     <li data-target="#homeCarousel" data-slide-to="0" class="active"></li>
     <li data-target="#homeCarousel" data-slide-to="1"></li>
     <li data-target="#homeCarousel" data-slide-to="2"></li>
+    <li data-target="#homeCarousel" data-slide-to="3"></li>
   </ol>
   <div class="carousel-inner" role="listbox">
-    <div class="item active" id="first-slide">
-      <img class="img-responsive" src="images/smallest-machine.png">
+    <div class="item active" id="news-slide">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>
+            Two <span class="label label-warning">NEW</span> Product Lines!
+          </h1>
+          <div class="row">
+            <div class="col-xs-12 col-sm-5 col-sm-offset-1">
+              <div class="row text-left">
+                <div class="col-xs-12 col-sm-5">
+                  <img src="images/ENT.png" class="img-responsive"/>
+                </div>
+                <div class="col-xs-12 col-sm-7">
+                  <p class="text-left">Ears, nose &amp; throat &ndash;<br>Minimally invasive treatments with flexible tissue interaction and multi fiber options.</p>
+                  <a ui-sref="app.ENT" type="button" role="button" class="btn btn-xs btn-warning"><h4><strong>OTOLARYNGOLOGY</strong></h4></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-5">
+              <div class="row text-left">
+                <div class="col-xs-12 col-sm-5">
+                  <img src="images/procto.png" class="img-responsive"/>
+                </div>
+                <div class="col-xs-12 col-sm-7">
+                  <p class="text-left">ALFA&trade; &amp; ELITE&trade; &ndash;<br>New treatment options for Fistula-in-ano &amp; grade 3-4 Hemorrhoids</p>
+                  <a ui-sref="app.PROCTO" type="button" role="button" class="btn btn-xs btn-warning"><h4><strong>PROCTOLOGY</strong></h4></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="item" id="first-slide">
+      <img class="img-responsive" src="images/smallest-machine.png"/>
       <div class="container">
         <div class="carousel-caption">
           <h1>The neoV Laser</h1>
@@ -34,7 +68,7 @@
       </div>
     </div>
     <div class="item" id="second-slide">
-      <img src="images/orlando-cityscape.png" style="height:350px;" id="img-orlando">
+      <img src="images/orlando-cityscape.png" style="height:350px;" id="img-orlando"/>
       <div class="container">
         <div class="carousel-caption">
           <a type="button" role="button" class="btn btn-default btn-xs" ui-sref="app.institutional" id="btn-about">
@@ -47,7 +81,7 @@
       </div>
     </div>
     <div class="item" id="third-slide">
-      <img class="img-responsive" src="images/back-whole.png">
+      <img class="img-responsive" src="images/back-whole.png"/>
       <div class="container">
         <div class="carousel-caption">
           <div class="row">
@@ -62,13 +96,13 @@
           </div>
           <div class="row">
             <div class="col-xs-12 col-sm-4 col-sm-offset-2">
-              <img src="images/fibers.png" class="img-responsive" style="height:70px; float:left;">
+              <img src="images/fibers.png" class="img-responsive" style="height:70px; float:left;"/>
             </div>
             <div class="col-xs-12 col-sm-5">
-              <h2 class="text-right"><i class="fa fa-chevron-right" style="color:#e74d3c;"></i> The neoLaser PLDD kit</h2>
               <div class="mNone">
                 <p class="text-right">
-                  includes everything you need for a safe, effective and minimally invasive PLDD procedure.
+                  <i class="fa fa-chevron-right" style="color:#e74d3c;"></i>
+                  <strong>The neoLaser PLDD kit</strong> includes everything you need for a safe, effective and minimally invasive PLDD procedure.
                 <br><br>
               </div>
                 <a type="button" role="button" ui-sref="app.PLDD" class="btn btn-danger">Learn More</a>
@@ -107,6 +141,8 @@
           <ul class="dropdown-menu">
             <li><a ui-sref="app.PLDD">PLDD &ndash; Laser Spine Surgery</a></li>
             <li><a ui-sref="app.EVLA">EVLA &ndash; Vascular</a></li>
+            <li><a ui-sref="app.ENT">ENT &ndash; Otolaryngology</a></li>
+            <li><a ui-sref="app.PROCTO">Proctology Surgery</a></li>
             <li role="separator" class="divider"></li>
             <li><a ui-sref="app.articles">Related Articles</a></li>
           </ul>
