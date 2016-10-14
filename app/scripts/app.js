@@ -47,7 +47,6 @@ angular.module('medlaserApp', ['ui.router'])
     views: {
       'content@': {
         templateUrl: 'app/partials/pldd.html',
-        controller: 'PageCtrl'
       }
     }
   })
@@ -57,7 +56,24 @@ angular.module('medlaserApp', ['ui.router'])
     views: {
       'content@': {
         templateUrl: 'app/partials/evla.html',
-        controller: 'PageCtrl'
+      }
+    }
+  })
+
+  .state('app.ENT', {
+    url:'ENT',
+    views: {
+      'content@': {
+        templateUrl: 'app/partials/ENT.html',
+      }
+    }
+  })
+
+  .state('app.PROCTO', {
+    url:'proctology',
+    views: {
+      'content@': {
+        templateUrl: 'app/partials/proctology.html',
       }
     }
   })
